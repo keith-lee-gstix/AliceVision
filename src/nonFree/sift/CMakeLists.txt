@@ -10,10 +10,8 @@ include_directories(./vl)
 
 set(FEATS
   vl/generic.c
-  vl/imopv_sse2.c
   vl/sift.c
   vl/imopv.c
-  vl/mathop_sse2.c
   vl/sift.c
   vl/host.c
   vl/mathop.c
